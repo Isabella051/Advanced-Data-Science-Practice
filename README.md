@@ -1,6 +1,7 @@
 # Advanced Data Science Practice
 ## 1. Overseas merchandise trade
-[Overseas merchandise trade.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab1.html)
+https://isabella051.github.io/Advanced-Data-Science-Practice/
+[Overseas merchandise trade.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab1.html)
 
 - Write the **Unix** command to create a directory, show information about all the data files and the number of lines in the file.
 - Write a shell command that extracts all records with HSC 8703231915 from all the files into a new file car-imports.data.
@@ -13,7 +14,7 @@
 - Calculate RMSE and plot the model predictions.
 
 ## 2. Euro foreign currency exchange
-[Euro foreign currency exchange.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab2.html)
+[Euro foreign currency exchange.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab2.html)
 
 - Use the curl command in the Unix shell to download the exchange rate.
 - Read the **json** file into R.
@@ -22,8 +23,8 @@
 - Fit linear models and print coefficients and RMSE.
 
 ## 3. The NYC Taxi
-[The NYC Taxi1.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab3.html)
-[The NYC Taxi2.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab4.html)
+[The NYC Taxi1.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab3.html)
+[The NYC Taxi2.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab4.html)
 
 - Use a shell command to determine how long it takes to **decompress** the data file and count how many lines it has.
 - Use a shell command to count the number of lines in each compressed file for year 2020 in **parallel**.
@@ -36,7 +37,7 @@
 - Use chunk.reader(xzfile(..., "rb")) to **decompress** and read the above file chunkwise.
 
 ## 4. Basic classification methods, data resampling techniques and regression trees
-[classification.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab5.html)
+[classification.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab5.html)
 
 - Compute the **confusion matrix** and **misclassification rate**, using **linear discriminant analysis** and the **Naive Bayes method**.
 - Compute the training and test misclassification rates.
@@ -51,7 +52,7 @@
 - Find the optimal value of the complexity parameter.
 
 ## 5. Classification Trees and Ensemble Methods
-[Ensemble.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab6.html)
+[Ensemble.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab6.html)
 
 - Grow an unpruned tree and prune it using the cost-complexity criterion.
 - Pruning the tree using 10-fold cross-validation with 20 repetitions (in aid of **parallel computing** using 20 cores) for minimising the deviance (the **Gini index** by default).
@@ -63,7 +64,7 @@
 - Compute both the training and test errors of this Boosting predictor.
 
 ## 6. Clustering and Support Vector Machines
-[Clustering and Support Vector Machines.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab7.html)
+[Clustering and Support Vector Machines.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab7.html)
 
 - In aid of **Random Forest**, find the two most important predictors out of 256 ones (in terms of Accuracy), for classifying between observations with digit = 6 and digit = 8.
 - Select the first most important predictor.
@@ -76,7 +77,7 @@
 - Produce a classification plot for each value of gamma, which also shows the **decision boundary**.
 
 ## 7. Neural Networks and Deep Learning
-[Neural Networks and Deep Learning.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab8.html)
+[Neural Networks and Deep Learning.html](https://isabella051.github.io/Advanced-Data-Science-Practice/lab8.html)
 
 - Train a **neural network** by minimising the cross-entropy objective function. The network has one **hidden layer** with 3 **units**.
 - Train (without validation) a neural network with two hidden layers, with 2 and 3 units, respectively, by minimising the **cross-entropy** objective function.
