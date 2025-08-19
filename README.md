@@ -1,7 +1,7 @@
 # Advanced Data Science Practice
 ## 1. Overseas merchandise trade
-[Kobe Bryant Shot Analysis & Auckland Temperature Study.html](https://isabella051.github.io/Advanced-Data-Science-Practice
-/A1.html)
+[Overseas merchandise trade.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab1.html)
+
 - Write the **Unix** command to create a directory, show information about all the data files and the number of lines in the file.
 - Write a shell command that extracts all records with HSC 8703231915 from all the files into a new file car-imports.data.
 - Write a shell script that returns total counts for all HS codes in ascending count order and print the last five lines of the output.
@@ -13,6 +13,8 @@
 - Calculate RMSE and plot the model predictions.
 
 ## 2. Euro foreign currency exchange
+[Euro foreign currency exchange.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab2.html)
+
 - Use the curl command in the Unix shell to download the exchange rate.
 - Read the **json** file into R.
 - Plot a line plot of all the exchange rates over time.
@@ -20,6 +22,9 @@
 - Fit linear models and print coefficients and RMSE.
 
 ## 3. The NYC Taxi
+[The NYC Taxi1.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab3.html)
+[The NYC Taxi2.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab4.html)
+
 - Use a shell command to determine how long it takes to **decompress** the data file and count how many lines it has.
 - Use a shell command to count the number of lines in each compressed file for year 2020 in **parallel**.
 - Use R to predict the number of records for each file in the directory. (**Sys.glob**, **file.info**)
@@ -30,7 +35,9 @@
 - Use the **biglm** and **iotools** packages to fit a linear model.
 - Use chunk.reader(xzfile(..., "rb")) to **decompress** and read the above file chunkwise.
 
-## 5. Basic classification methods, data resampling techniques and regression trees
+## 4. Basic classification methods, data resampling techniques and regression trees
+[classification.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab5.html)
+
 - Compute the **confusion matrix** and **misclassification rate**, using **linear discriminant analysis** and the **Naive Bayes method**.
 - Compute the training and test misclassification rates.
 - Use 10-fold cross-validation, with 20 repetitions, to compute the CV misclassification rates of **KNN**.
@@ -43,7 +50,9 @@
 - Find the **pruned tree**, using **1 SE-rule**.
 - Find the optimal value of the complexity parameter.
 
-## 6. Classification Trees and Ensemble Methods
+## 5. Classification Trees and Ensemble Methods
+[Ensemble.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab6.html)
+
 - Grow an unpruned tree and prune it using the cost-complexity criterion.
 - Pruning the tree using 10-fold cross-validation with 20 repetitions (in aid of **parallel computing** using 20 cores) for minimising the deviance (the **Gini index** by default).
 - Produce a **Bagging** model for the training data with 500 trees constructed.
@@ -53,7 +62,9 @@
 - Produce a **Boosting** model, using up to 500 trees, with the number of trees determined via 10-fold cross-validation.
 - Compute both the training and test errors of this Boosting predictor.
 
-## 7. Clustering and Support Vector Machines
+## 6. Clustering and Support Vector Machines
+[Clustering and Support Vector Machines.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab7.html)
+
 - In aid of **Random Forest**, find the two most important predictors out of 256 ones (in terms of Accuracy), for classifying between observations with digit = 6 and digit = 8.
 - Select the first most important predictor.
 - run the **K-means** algorithm to partition the images into clusters.
@@ -64,7 +75,9 @@
 - Use **radial** kernels for support vector machines. With cost=1 held fixed, train support vector machines, for gamma = 0.001, 0.01, 0.1, 1, 10, 100, respectively.
 - Produce a classification plot for each value of gamma, which also shows the **decision boundary**.
 
-## 8. Neural Networks and Deep Learning
+## 7. Neural Networks and Deep Learning
+[Neural Networks and Deep Learning.html](https://isabella051.github.io/Advanced-Data-Science-Practice/Lab8.html)
+
 - Train a **neural network** by minimising the cross-entropy objective function. The network has one **hidden layer** with 3 **units**.
 - Train (without validation) a neural network with two hidden layers, with 2 and 3 units, respectively, by minimising the **cross-entropy** objective function.
 - plot their **decision boundaries** inside a scatter plot of the training data with **jittering**.
